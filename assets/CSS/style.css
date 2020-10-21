@@ -1,2 +1,13 @@
 
 /* This my CSS folder */
+
+.navbar-brand {
+
+    background: yellow;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+
