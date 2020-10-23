@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   ​
-  <title>Humidity</title>
+  <title>Wind Speed</title>
   ​
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -15,6 +15,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   ​
 </head>
+​
 
 <body>
   <!-- Start of navbar -->
@@ -33,7 +34,7 @@
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink"
               role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="temp.html">Temperature</a>
               <a class="dropdown-item" href="humidity.html">Humidity</a>
               <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
               <a class="dropdown-item" href="wind.html">Wind Speed</a>
@@ -49,19 +50,17 @@
       </div>
     </nav>
   </div>
-
   <!-- End of navbar -->
-
+  ​
   <!-- Start of container -->
   <div class="container">
     <section class="row">
       <div class="col-lg-7 col-md-12">
         <div class="description-content">
-          <h1 class="description-header">Humidity</h1>
+          <h1 class="description-header">Wind Speed</h1>
           <hr>
-          <img src="Images/Fig2.png" alt="Latitude vs. Humidity">
-          <p>Even though the corelation between latitude and humidity is weak, the humidity tends to decrease in some
-            area, such as from -20&deg to 0&deg latitude and from 40&deg to 60&deg latitude.</p>
+          <img src="Images/Fig4.png" alt="Latitude vs. Wind Speed">
+          <p>Wind speed appears to slightly increase as the distance from the equator increases.</p>
         </div>
       </div>
       <div class="col-lg-5 col-md-12">
@@ -86,7 +85,7 @@
                   </a>
                 </div>
                 <div class="col-6">
-                  ​ <a href="cloudiness.html">
+                  <a href="cloudiness.html">
                     <img src="Images/Fig3.png" alt="Latitude vs. Cloudiness" ,
                       title="Latitude vs. Cloudiness" , class="imageNav-photo">
                   </a>
@@ -102,12 +101,12 @@
           </div>
         </section>
         <!-- End of the Visualizations imageNav Area -->
-        ​
+
       </div>
     </section>
   </div>
-  <!-- End of container --> ​
-  ​
+  <!-- End of container -->  ​
+    ​
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
